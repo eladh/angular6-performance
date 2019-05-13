@@ -1,0 +1,19 @@
+<h1>Angular Performance</h1>
+
+<button (click)="startProfiler()">Start Profiler</button>
+
+<ul>
+  <li *ngFor="let counter of counters | iterable">
+    <div class="content">
+      <span class="name">{{counter.name}}</span>
+      <div class="value">
+        <span>{{counter.value}}</span>
+      </div>
+    </div>
+  </li>
+</ul>
+
+
+<!--*  <div *ngFor="#keyValuePair of someObject | mapToIterable">-->
+  <!--*    key {{keyValuePair.key}} and value {{keyValuePair.value}}-->
+  <!--*  </div>-->

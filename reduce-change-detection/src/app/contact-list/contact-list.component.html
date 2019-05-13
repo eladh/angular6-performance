@@ -1,0 +1,22 @@
+<!--<form [formGroup]="addContactForm" novalidate>-->
+  <!--<div class="form-group">-->
+    <!--<label>Contact Name</label>-->
+    <!--<input class="form-control" formControlName="contactName">-->
+  <!--</div>-->
+  <!--<button class="btn btn-success">Submit</button>-->
+<!--</form>-->
+
+  <label>
+    <span>Add Contact</span>
+    <input [(ngModel)]="contactName" (keydown)="handleKey($event)">
+  </label>
+
+  <hr>
+
+  <ul>
+  <li *ngFor="let contact of contacts">
+    <i title="Delete Contact" class="fa fa-user-times" (click)="remove.emit(contact)"></i>
+    <span>{{contact.name}}</span>
+    <span>(Score  = {{ contact | score}})</span>
+  </li>
+</ul>

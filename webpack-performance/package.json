@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "hard-source-webpack-plugin": "^0.6.7",
+    "rollup": "^0.55.0",
+    "webpack": "^3.10.0"
+  },
+  "scripts": {
+    "build": "webpack -d --progress --colors"
+  }
+}

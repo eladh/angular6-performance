@@ -1,0 +1,38 @@
+{
+  "configVersion": 1,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/index.html",
+        "/inline.bundle.js",
+        "/main.bundle.js",
+        "/polyfills.bundle.js",
+        "/styles.bundle.js",
+        "/vendor.bundle.js"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "font",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [],
+      "patterns": [
+        "https:\\/\\/fonts\\.googleapis\\.com\\/.*"
+      ]
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/inline.bundle.js": "d9f5638a377514e905b6adb2a54a1dc0110f8e2f",
+    "/main.bundle.js": "33fc07c31f8d6d8726b5e73febd3b5995cdc9a80",
+    "/polyfills.bundle.js": "2741164f18d75dd4871789686944ceb696ff46a8",
+    "/styles.bundle.js": "892c25a88a9ba432cf5cf2bbb6a01a3be05de063",
+    "/vendor.bundle.js": "d9fce73c730d85709dc550eb7cae05bb67618b9f",
+    "/index.html": "007f82a445cdbe44a405079bb39a5838f0341890"
+  }
+}

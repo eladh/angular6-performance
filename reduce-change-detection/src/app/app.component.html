@@ -1,0 +1,8 @@
+<h1>ChangeDetectionStrategy OnPush</h1>
+
+<!--<div>-->
+  <!--<button (click)="add()">Add</button>-->
+<!--</div>-->
+
+<app-contact-list [contacts]="contacts" (add)="add($event)" (remove)="remove($event)"></app-contact-list>
+
